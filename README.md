@@ -26,10 +26,10 @@ All these datasets have been included in the Data folder as .mat files for easy 
 
 ### Prerequisites
 
--Python 3.6
--Tensorflow 1.14
--munkres
--sklearn
+- Python 3.6
+- Tensorflow 1.14
+- munkres
+- sklearn
 
 ## Using the Code:
 
@@ -39,11 +39,11 @@ git clone https://github.com/jeya-maria-jose/Overcomplete-Deep-Subspace-Clusteri
 cd Overcomplete-Deep-Subspace-Clustering
 ```
 
--The codes for each dataset has been organized into separate folders <code> MNIST, COIL20, ORL and EYaleB </code>.
+- The codes for each dataset has been organized into separate folders <code> MNIST, COIL20, ORL and EYaleB </code>.
 
--The pretrained models can be found for each dataset: <code> dataset_name/pretrained/ </code>
+- The pretrained models can be found for each dataset: <code> dataset_name/pretrained/ </code>
 
--To do the pretraining yourself, run the pretraining code found in each dataset folder <code> dataset_name/pretrain_ODSC.py </code>
+- To do the pretraining yourself, run the pretraining code found in each dataset folder <code> dataset_name/pretrain_ODSC.py </code>
 
 ### Fine-tuning
 
@@ -58,7 +58,7 @@ python ODSC-mnist.py
 
 ### Acknowledgement:
 
-This code is developed on top of [https://github.com/panji1990]Pan Ji's [https://github.com/panji1990/Deep-subspace-clustering-networks]DSC.
+This code is developed on top of [Pan Ji's](https://github.com/panji1990) [DSC](https://github.com/panji1990/Deep-subspace-clustering-networks).
 
 ## Citation:
 
